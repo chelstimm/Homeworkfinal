@@ -10,11 +10,13 @@ body {
     margin: 0px;
   }
 
-h1 {
+#ct {
     padding: 30px 20px 30px 20px;
     background: #4aaaa5;
     color: white;
+    font-size: 24px;
     font-family: 'Georgia', 'Times', Times New Roman, serif;
+    font-weight: bold;
     float: left;
     width: 33%;
     margin-top: 0px;
@@ -43,7 +45,7 @@ a {
 ul {
     list-style-type: none;
     margin: 0px;
-    padding-top: 40px;
+    padding-top: 35px;
 }
 
 li {
@@ -75,15 +77,23 @@ li:last-child {
 
   }
 
-  h2 {
+h2 {
     color: #4aaaa5;
+    font-size: 22px;
+    font-family: 'Georgia', 'Times', Times New Roman, serif;
+    font-weight: bold;
     background: #ffffff;
     text-align: left;
+    margin: 20px;
+    float: left;
+    margin-left: 0px;
 }
 
 hr {
     color: #cccccc; 
     size: 3px;
+    width: 920px;
+    float: left;
 }
 
 #bio-image {
@@ -105,6 +115,85 @@ p {
     line-height: 2;
 }
 
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+
+    input[type="submit" i], input[type="reset" i] {
+        background: #4aaaa5;
+        color: white;
+        width: 80px;
+        padding: 10px;
+    }
+
+    
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 850px;
+    width: 960px;
+    float: left;
+    background: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    color:#777777;
+    margin-top: 40px; 
+    margin-left: 120px; 
+    margin-bottom: 80px;
+    margin-right: 120px;
+}
+
+#portfolio {
+    text-align: left;
+    margin-top: 20px;
+    color: #4aaaa5;
+    margin-left: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float: left;
+    width: 300px;
+    margin: 20px;
+}
+
+.textwinter, .textsummer, .textspring, .textfall  {
+    text-align: center;
+    color: white;
+    background: #4aaaa5;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#winter, .winterimg, .textwinter {
+    position: relative;
+    bottom: 20%;
+    
+}
+
+#spring, .springimg, .textspring {
+    position: relative;
+    bottom: 20%;
+}
+
+#summer, .summerimg, .textsummer {
+    position: relative;
+    bottom: 20%;
+}
+
+#fall, .fallimg, .textfall {
+    position: relative;
+    bottom: 20%;
+    
+}
+
 #blue {
     clear: both;
       background: #4aaaa5;
@@ -121,4 +210,5 @@ p {
     text-align: center;
     color: white;
     width: 100%;
+    clear: both;
     }
