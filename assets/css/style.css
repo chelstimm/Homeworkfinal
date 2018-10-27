@@ -125,12 +125,12 @@ p {
     input[type="submit" i], input[type="reset" i] {
         background: #4aaaa5;
         color: white;
-        width: 80px;
+        width: 120px;
         padding: 10px;
     }
 
     
-.grid-container {
+.flex-container {
     display: flex;
     flex-wrap: wrap;
     overflow: auto;
