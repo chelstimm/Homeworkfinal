@@ -73,8 +73,6 @@ li:last-child {
     margin-left: 120px; 
     margin-bottom: 80px;
     margin-right: 120px;
-
-
   }
 
 h2 {
@@ -130,41 +128,18 @@ p {
     }
 
     
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    overflow: auto;
-    height: 850px;
-    width: 960px;
-    float: left;
-    background: #ffffff;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #dddddd;
-    color:#777777;
-    margin-top: 40px; 
-    margin-left: 120px; 
-    margin-bottom: 80px;
-    margin-right: 120px;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
 }
 
 #portfolio {
     text-align: left;
-    margin-top: 20px;
     color: #4aaaa5;
-    margin-left: 20px;
 }
 
-.image-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    float: left;
-    width: 300px;
-    margin: 20px;
-}
-
-.textwinter, .textsummer, .textspring, .textfall  {
+.text {
     text-align: center;
     color: white;
     background: #4aaaa5;
@@ -172,26 +147,34 @@ p {
     font-size: 18px;
 }
 
-#winter, .winterimg, .textwinter {
+#img1, .text {
     position: relative;
-    bottom: 20%;
-    
+    bottom: 25%;
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
-#spring, .springimg, .textspring {
+#img2, .text {
     position: relative;
-    bottom: 20%;
+    bottom: 25%;
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
-#summer, .summerimg, .textsummer {
+#img3, .text {
     position: relative;
-    bottom: 20%;
+    bottom: 25%;
+    width: 300px;
+    margin-right: 20px;
 }
 
-#fall, .fallimg, .textfall {
+#img4, .text {
     position: relative;
-    bottom: 20%;
-    
+    bottom: 25%;
+    width: 300px;
+    margin-right: 20px;
 }
 
 #blue {
